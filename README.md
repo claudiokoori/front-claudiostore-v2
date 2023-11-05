@@ -1,31 +1,16 @@
-<<<<<<< HEAD
-# FrontClaudioStore
+# CLAUDIO!STORE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+FRONT do meu E-commerce CLAUDIO!STORE
 
-## Development server
+## VISÃO GERAL
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  Refiz o projeto do site E-commerce que havia feito usando o ASP.NET MVC, Dessa vez preferi utilizar o Angular <br>
+  O site irá receber melhorias constantes e irá evoluindo. <br>
+  Criarei novos recusos como:
+  - Tela de cadastro para novos usuarios
+  - Tela de login para usuarios e para Admin
+  - Filtragem
+  - e novos recusos no futuro.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# front-claudiostore-v2
->>>>>>> fbf53cd92a17cde7c9950d69e578a1ac629b324f
+## BACK DO PROJETO
+  Você pode conferir o FRONT desse projeto clicando <a href="https://github.com/claudiokoori/front-claudiostore-v2"> AQUI </a>
