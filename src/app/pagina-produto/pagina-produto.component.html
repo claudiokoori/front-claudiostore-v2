@@ -1,0 +1,22 @@
+<div *ngIf="produto" class="product-container">
+    <div class="d-flex align-items-center justify-content-center p-5 m-5">
+        <div class="text-center mr-4">
+            <img [src]="produto.imagemUrl" alt="Imagem do Produto" style="max-width: 400px; max-height: 500px;"
+                class="img-thumbnail">
+        </div>
+        <div class="product-details m-5">
+            <h1>{{ produto.nome }}</h1>
+            <p>{{ produto.descricao }}</p>
+            <p>Preço: {{ formatarMoeda(produto.preco) }}</p>
+            <p>Estoque: {{ produto.estoque }}</p>
+
+            <label for="quantidade">Quantidade:</label>
+            <input [(ngModel)]="quantidade" (change)="calcularValorTotal()" type="number" id="quantidade"
+                name="quantidade" class="form-control" min="1" [max]="produto.estoque < 10 ? produto.estoque : 10" >
+
+            <p>Valor Total: {{ formatarMoeda(valorTotal) }}</p>
+            
+            <button (click)="confirmarCompra()" class="btn btn-primary" *ngIf="produto.estoque > 0">CONFIRMAR COMPRA</button>
+        </div>
+    </div>
+</div>
