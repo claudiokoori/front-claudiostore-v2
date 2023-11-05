@@ -13,4 +13,4 @@ FRONT do meu E-commerce CLAUDIO!STORE
   - e novos recusos no futuro.
 
 ## BACK DO PROJETO
-  Você pode conferir o FRONT desse projeto clicando <a href="https://github.com/claudiokoori/front-claudiostore-v2"> AQUI </a>
+  Você pode conferir o FRONT desse projeto clicando <a href="https://github.com/claudiokoori/back-claudiostore-v2"> AQUI </a>
